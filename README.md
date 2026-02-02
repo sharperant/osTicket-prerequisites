@@ -56,5 +56,35 @@ Excellent. Now that you have enabled IIS we need to install Web Platform Install
 
 <p>
 Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
+</p>
+<br />
+<p>
+<p>
+<img width="1071" height="716" alt="slide5" src="https://github.com/user-attachments/assets/8509a9f1-c660-4147-a269-37c5afeb1646" />
+</p>
+<br />
+<p>
+<p>
+Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
+</p>
+<br />
+<p>
+<p>
+<img width="1012" height="547" alt="slide6" src="https://github.com/user-attachments/assets/7d0250b5-19d5-4240-96ab-60ef112695a3" />
+</p>
+<br />
+<p>
+<p>
+Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+</p>
+<br />
+<p>
+<p>
+<img width="1047" height="554" alt="slide7" src="https://github.com/user-attachments/assets/4f274aac-8566-4f30-9c96-0137f37aba5b" />
+</p>
+<br />
+<p>
+<p>
+Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled.
 
 
