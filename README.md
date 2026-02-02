@@ -26,7 +26,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Welcome to my first in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
 
 <p>
-<img <img width="1126" height="682" alt="Capture" src="https://github.com/user-attachments/assets/20808ca4-5645-4d82-b94d-d79dcdbf0435" />
+<<img width="1720" height="839" alt="slide1" src="https://github.com/user-attachments/assets/c5d22a3c-7654-43ef-8192-09ba521d9aff" />
+/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
