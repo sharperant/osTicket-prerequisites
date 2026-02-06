@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Heidi SQL
 
 <h2>Installation Steps</h2>
-Welcome to my first in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
+Hello and welcome to my in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
 <p>
 <p>
 <img width="864" height="422" alt="slide1modify1" src="https://github.com/user-attachments/assets/4f9d1226-2ab2-464d-8b82-060411a8e9bf" />
@@ -47,7 +47,7 @@ Alright, now that you are connected to your VM you will have to enable IIS. Simp
 
 </p>
 <p>
-Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer.
+Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 That link will provide you with all of the material you need to download to get osTicket up and running. Click the link and install the Web Platform Installer.
 </p>
 <br />
 <img width="1039" height="817" alt="slide4" src="https://github.com/user-attachments/assets/c8c75368-12a1-4a2f-aaae-19b792671013" />
@@ -65,7 +65,7 @@ Once you have installed Web Installer Platform open it. From inside the applicat
 <br />
 <p>
 <p>
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
+Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards you will rename the folder to osTicket.
 </p>
 <br />
 <p>
