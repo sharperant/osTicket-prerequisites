@@ -29,11 +29,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Hello and welcome to my in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). First create a Resource Group inside Azure. Now, create a Windows 10 Virtual Machine (VM),When creating the Virtual Machine, make sure your VM and resource group have the same region. It is advisable to remember the Username and password you chose and allow Azure to create a new Virtual Network (Vnet). After clicking on the 'Review and create" button,it might take a while to complete deployment.
 <p>
 <p>
-<img width="864" height="422" alt="slide1modify1" src="https://github.com/user-attachments/assets/4f9d1226-2ab2-464d-8b82-060411a8e9bf" />
-
+<img width="2143" height="1210" alt="slide1" src="https://github.com/user-attachments/assets/4051abd1-be32-4a6c-88bc-d829619e6164" />
 </p>
 <p>
-Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP).
+<img width="1455" height="291" alt="slide2" src="https://github.com/user-attachments/assets/d5c64688-869b-4698-90a5-0c8467c2479c" />
 </p>
 <br />
 <p>
