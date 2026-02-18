@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Installing Microsoft Visual C++ Redistributable
 
 <h2>Installation Steps</h2>
-Hello and welcome to my in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
+Hello and welcome to my in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). First create a Resource Group inside Azure. Now, create a Windows 10 Virtual Machine (VM),When creating the Virtual Machine, make sure your VM and resource group have the same region. It is advisable to remember the Username and password you chose and allow Azure to create a new Virtual Network (Vnet). After clicking on the 'Review and create" button,it might take a while to complete deployment.
 <p>
 <p>
 <img width="864" height="422" alt="slide1modify1" src="https://github.com/user-attachments/assets/4f9d1226-2ab2-464d-8b82-060411a8e9bf" />
