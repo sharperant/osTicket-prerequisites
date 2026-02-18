@@ -32,6 +32,9 @@ Hello and welcome to my in-depth IT tutorial! To begin we will have to create a 
 <img width="80%" height="1210" alt="slide1" src="https://github.com/user-attachments/assets/4051abd1-be32-4a6c-88bc-d829619e6164" />
 </p>
 <p>
+<br />
+<p>
+<p>
 <img width="80%" height="291" alt="slide2" src="https://github.com/user-attachments/assets/d5c64688-869b-4698-90a5-0c8467c2479c" />
 </p>
 <br />
