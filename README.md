@@ -205,5 +205,5 @@ Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
 <img width="3730" height="1826" alt="slide27" src="https://github.com/user-attachments/assets/240e24c8-dc28-4b56-9feb-bd8e8780eebe" />
 <p>
 <p>
-Congrats, You've Finished Installing osTicket.
+Congratulations, You've Finished Installing osTicket.
 
