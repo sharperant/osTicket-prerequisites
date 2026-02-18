@@ -124,36 +124,36 @@ Go to “osTicket-Installation-Files” folder > Doubleclick "mysql-5.5.62-win32
 Next, search for IIS in the searchbar and open it as an admin > Double click "PHP Manager" > Click "Register new PHP version" > Browse to the PHP floder and choose "php-cgi" > Now reload IIS by clicking Stop(wait) and start.
 <p>
 <p>
-<img width="1369" height="1550" alt="slide15" src="https://github.com/user-attachments/assets/4ca5c2c4-44a5-49d2-b82d-1c15c4f801ae" />
+<img width="80%" height="1550" alt="slide15" src="https://github.com/user-attachments/assets/4ca5c2c4-44a5-49d2-b82d-1c15c4f801ae" />
 <p>
 <p>
-<img width="709" height="584" alt="slide16" src="https://github.com/user-attachments/assets/676fb306-ca26-411b-8fea-b67eef484b4c" />
+<img width="80%" height="584" alt="slide16" src="https://github.com/user-attachments/assets/676fb306-ca26-411b-8fea-b67eef484b4c" />
 <p>
 <p>
 Installing osTicket v1.15.8
 Extract and copy the “upload” folder into the C drive "wwwroot" (“c:\inetpub\wwwroot”). Then change the file named from "upload" to "osTicket"
 <p>
 <p>
-<img width="516" height="421" alt="slide17" src="https://github.com/user-attachments/assets/44875a95-6d01-42f4-a4ff-b77e5d47f89a" />
+<img width="80%" height="421" alt="slide17" src="https://github.com/user-attachments/assets/44875a95-6d01-42f4-a4ff-b77e5d47f89a" />
 <p>
 <p>
-<img width="469" height="427" alt="slide18" src="https://github.com/user-attachments/assets/37b4dcad-761c-48a3-8f2e-fda9ca2b17cb" />
+<img width="80%" height="427" alt="slide18" src="https://github.com/user-attachments/assets/37b4dcad-761c-48a3-8f2e-fda9ca2b17cb" />
 <p>
 <p>
 Enable some Extensions in IIS
 Under IIS manager, go to sites--> defualt-->ostickets in the top left hand corner > Click osticket > Click "browse 80" under manage folder to open the osticket web page. Now back to IIS, Double-click PHP Manager > Click “Enable or disable an extension” > Click enable "php_imap.dll" "php_intl.dll" and "php_opcache.dll".
 <p>
 <p>
-<img width="1788" height="1591" alt="slide19" src="https://github.com/user-attachments/assets/56693907-2e8d-41dc-b124-89dda3b3c49a" />
+<img width="80%" height="1591" alt="slide19" src="https://github.com/user-attachments/assets/56693907-2e8d-41dc-b124-89dda3b3c49a" />
 <p>
 <p>
-<img width="1040" height="709" alt="slide20" src="https://github.com/user-attachments/assets/7faa5ceb-63cc-475f-ac92-179e3bd4de57" />
+<img width="80%" height="709" alt="slide20" src="https://github.com/user-attachments/assets/7faa5ceb-63cc-475f-ac92-179e3bd4de57" />
 <p>
 <p>
 Now refresh the osTicket site in your browser to observe the changes.
 <p>
 <p>
-<img width="1732" height="1562" alt="slide21" src="https://github.com/user-attachments/assets/bbafb3fc-953e-4a94-8f21-97d527102afe" />
+<img width="80%" height="1562" alt="slide21" src="https://github.com/user-attachments/assets/bbafb3fc-953e-4a94-8f21-97d527102afe" />
 <p>
 <p>
 Rename
@@ -167,27 +167,27 @@ Assign Permissions (ost-config.php)
 To assign Permissions, Right click "ost-config.php" > Click "Properties" > Click "Advanced" > Disable inheritance >Click "remove all inherited permissions from the object" > Add everyone to the permissions.
 <p>
 <p>
-<img width="1476" height="753" alt="slide22" src="https://github.com/user-attachments/assets/40eada7a-1dbe-4c60-8ec1-e970640a5851" />
+<img width="80%" height="753" alt="slide22" src="https://github.com/user-attachments/assets/40eada7a-1dbe-4c60-8ec1-e970640a5851" />
 <p>
 <p>
 Continue Setting up osTicket
 Open osTicket in the browser or refresh the webpage and input all the information required. Make sure the email you choose is your work email which you will use to receive email from customers.
 <p>
 <p>
-<img width="1334" height="1519" alt="slide23" src="https://github.com/user-attachments/assets/99a5341b-c24a-41a9-8840-8839c5759151" />
+<img width="80%" height="1519" alt="slide23" src="https://github.com/user-attachments/assets/99a5341b-c24a-41a9-8840-8839c5759151" />
 <p>
 <p>
 Downloading and Installing HeidiSQL
 Go back to the “osTicket-Installation-Files” folder and Double click on "HeidiSQL" to install. Then create a new session and input a username and password that you'd remember or simply write it down as it is very important to not forget them. Create and connect.
 <p>
 <p>
-<img width="1521" height="1174" alt="slide24" src="https://github.com/user-attachments/assets/88c3a14d-9b0f-4f5c-b89f-55f7d867f026" />
+<img width="80%" height="1174" alt="slide24" src="https://github.com/user-attachments/assets/88c3a14d-9b0f-4f5c-b89f-55f7d867f026" />
 <p>
 <p>
 Create a database called “osTicket (Click on "Create New")
 <p>
 <p>
-<img width="1161" height="828" alt="slide25" src="https://github.com/user-attachments/assets/ca8e9f66-d16c-4f5f-bb19-21f276e7cb74" />
+<img width="80%" height="828" alt="slide25" src="https://github.com/user-attachments/assets/ca8e9f66-d16c-4f5f-bb19-21f276e7cb74" />
 <p>
 <p>
 Continue Setting up osTicket in the browser
@@ -196,7 +196,7 @@ Go back to the webpage > Go to the database setting > Input all the MySQL inform
 Congratulations, hopefully there was no error!!
 <p>
 <p>
-<img width="1117" height="876" alt="slide26" src="https://github.com/user-attachments/assets/e5d2b50d-b74e-40b3-92cb-c63533e063fa" />
+<img width="80%" height="876" alt="slide26" src="https://github.com/user-attachments/assets/e5d2b50d-b74e-40b3-92cb-c63533e063fa" />
 <p>
 <p>
 Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
