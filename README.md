@@ -37,84 +37,24 @@ Hello and welcome to my in-depth IT tutorial! To begin we will have to create a 
 <br />
 <p>
 <p>
-<img width="1255" height="782" alt="slide2" src="https://github.com/user-attachments/assets/662505fb-a690-4596-a040-70681f160df5" />
-</p>
+Open Windows Remote Desktop on your computer and paste the public IP address of the virtual machine that was created, then click on the "connect" button. You will then be asked for the Username and Password of the VM, do that to access the VM.
 <p>
-Alright, now that you are connected to your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
-</p>
-<br />
+<p>
+<img width="1285" height="647" alt="slide3" src="https://github.com/user-attachments/assets/b44709a8-2132-4137-b35b-0438725bb95e" />
+<p>
+<p>
+Within the Virtual machine, download the osTicket-Installation-Files.zip.
+<p>
+<p>
+<img width="1512" height="522" alt="slide4" src="https://github.com/user-attachments/assets/a018580e-2f02-48b3-b58a-eec89d6840c0" />
+<p>
+<p>
+Unzip it onto your desktop by right clicking it and click on "Extrack all".
+<p>
+<p>
+<img width="585" height="812" alt="slide5" src="https://github.com/user-attachments/assets/e177c4aa-ada3-4871-a489-2cbb08702d93" />
+<p>
+<p>
 
-<p>
-<img width="1209" height="638" alt="slide3" src="https://github.com/user-attachments/assets/0cf5a6a4-2f22-45fa-8875-ac138c4130ce" />
 
-</p>
-<p>
-Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 That link will provide you with all of the material you need to download to get osTicket up and running. Click the link and install the Web Platform Installer.
-</p>
-<br />
-<img width="1039" height="817" alt="slide4" src="https://github.com/user-attachments/assets/c8c75368-12a1-4a2f-aaae-19b792671013" />
-</p>
-<br />
 
-<p>
-Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
-</p>
-<br />
-<p>
-<p>
-<img width="1071" height="716" alt="slide5" src="https://github.com/user-attachments/assets/8509a9f1-c660-4147-a269-37c5afeb1646" />
-</p>
-<br />
-<p>
-<p>
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards you will rename the folder to osTicket.
-</p>
-<br />
-<p>
-<p>
-<img width="1012" height="547" alt="slide6" src="https://github.com/user-attachments/assets/7d0250b5-19d5-4240-96ab-60ef112695a3" />
-</p>
-<br />
-<p>
-<p>
-Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
-</p>
-<br />
-<p>
-<p>
-<img width="1047" height="554" alt="slide7" src="https://github.com/user-attachments/assets/4f274aac-8566-4f30-9c96-0137f37aba5b" />
-</p>
-<br />
-<p>
-<p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled.
-</p>
-<br />
-<p>
-<p>
-<img width="1289" height="684" alt="slide8" src="https://github.com/user-attachments/assets/e4c697f9-3848-45b4-a8d7-3799720cb42b" />
-</p>
-<br />
-<p>
-<p>
-Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php Assign permissions to ost-config.php Disable inheritance->Removeall New Permissions->Everyone->all
-</p>
-<br />
-<p>
-<p>
-<img width="1292" height="622" alt="slide9" src="https://github.com/user-attachments/assets/f7128cac-d6b7-41df-99e4-6426ece7451a" />
-</p>
-<br />
-<p>
-<p>
-Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets.
-</p>
-<br />
-<p>
-<p>
-<img width="862" height="810" alt="slide10" src="https://github.com/user-attachments/assets/cf591e1c-d1e0-4727-977c-b4ed198f1cca" />
-</p>
-<br />
-<p>
-<p>
-Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!” Congratulations, hopefully it is installed with no errors! Clean up Delete: C:\inetpub\wwwroot\osTicket\setup Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
