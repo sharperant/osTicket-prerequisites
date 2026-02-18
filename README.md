@@ -49,12 +49,27 @@ Within the Virtual machine, download the osTicket-Installation-Files.zip.
 <img width="1512" height="522" alt="slide4" src="https://github.com/user-attachments/assets/a018580e-2f02-48b3-b58a-eec89d6840c0" />
 <p>
 <p>
-Unzip it onto your desktop by right clicking it and click on "Extrack all".
+Unzip it onto your desktop by right clicking it and click on "Extract All".
 <p>
 <p>
 <img width="585" height="812" alt="slide5" src="https://github.com/user-attachments/assets/e177c4aa-ada3-4871-a489-2cbb08702d93" />
 <p>
 <p>
+Now we have to enable IIS in Windows (It's a web server that will help run ostickets). Go to your Search Bar > Type "Control Panel" > Click "Programs" > "Turn Windows features on or off" > Look for "Internet Information Services".
+<p>
+<p>
+<img width="1409" height="1238" alt="slide6" src="https://github.com/user-attachments/assets/9a3dc423-f32d-430f-93f3-e1496a8232ad" />
+<p>
+<p>
+Expand IIS > Expand the "World Wide Web" > Expand "Application Developer" > Check the "CGI" button & press "Ok". You will need CGI to download the PHP Manager which is a back-end web programming language that allows osTicket to run off a web browser.
+<p>
+<p>
+<img width="1120" height="929" alt="slide7" src="https://github.com/user-attachments/assets/6f373a08-00a3-4ef9-a74a-2a92a6fd2bd1" />
+<p>
+<p>
+Installing PHP Manager
 
-
-
+Now we need to download PHP which is a backend web server language that is needed to run osTicket.
+Go to osticket installation folder > Double click "PHPManagerforIIS" > Agree with all the terms and we've now downloaded the PHP manager.
+<p>
+<p>
