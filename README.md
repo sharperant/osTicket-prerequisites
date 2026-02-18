@@ -177,3 +177,33 @@ Open osTicket in the browser or refresh the webpage and input all the informatio
 <img width="1334" height="1519" alt="slide23" src="https://github.com/user-attachments/assets/99a5341b-c24a-41a9-8840-8839c5759151" />
 <p>
 <p>
+Downloading and Installing HeidiSQL
+Go back to the “osTicket-Installation-Files” folder and Double click on "HeidiSQL" to install. Then create a new session and input a username and password that you'd remember or simply write it down as it is very important to not forget them. Create and connect.
+<p>
+<p>
+<img width="1521" height="1174" alt="slide24" src="https://github.com/user-attachments/assets/88c3a14d-9b0f-4f5c-b89f-55f7d867f026" />
+<p>
+<p>
+Create a database called “osTicket (Click on "Create New")
+<p>
+<p>
+<img width="1161" height="828" alt="slide25" src="https://github.com/user-attachments/assets/ca8e9f66-d16c-4f5f-bb19-21f276e7cb74" />
+<p>
+<p>
+Continue Setting up osTicket in the browser
+Go back to the webpage > Go to the database setting > Input all the MySQL information > Click "Install Now" button
+
+Congratulations, hopefully there was no error!!
+<p>
+<p>
+<img width="1117" height="876" alt="slide26" src="https://github.com/user-attachments/assets/e5d2b50d-b74e-40b3-92cb-c63533e063fa" />
+<p>
+<p>
+Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+<p>
+<p>
+<img width="3730" height="1826" alt="slide27" src="https://github.com/user-attachments/assets/240e24c8-dc28-4b56-9feb-bd8e8780eebe" />
+<p>
+<p>
+Congrats, You've Finished Installing osTicket.
+
