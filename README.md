@@ -18,9 +18,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Azure Virtual Machine
-- osTicket Installation files
-- Heidi SQL
+- Creating a Virtual Machine in Azure
+- Installing osTicket v1.15.8
+- Installing HeidiSQL
+- Installing MySQL then and set up user and pass
+- Installing PHP
+- Installing Microsoft Visual C++ Redistributable
 
 <h2>Installation Steps</h2>
 Hello and welcome to my in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
