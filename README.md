@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Installing Microsoft Visual C++ Redistributable
 
 <h2>Installation Steps</h2>
-**Hello and welcome to my in-depth IT tutorial! To begin we will have to create a Virtual Machine using the Microsoft Azure portal (portal.azure.com). First create a Resource Group inside Azure. Now, create a Windows 10 Virtual Machine (VM). When creating the Virtual Machine, make sure your VM and Resource Group have the same region. It is advisable to remember the Username and password you chose and allow Azure to create a new Virtual Network (VNet). After clicking on the "Review and create" button, it might take a while to complete deployment.**
+**Hello and welcome to my in-depth IT tutorial! To begin we will have to create a Virtual Machine** using the Microsoft Azure portal (portal.azure.com). First create a Resource Group inside Azure. Now, create a Windows 10 Virtual Machine (VM). When creating the Virtual Machine, make sure your VM and Resource Group have the same region. It is advisable to remember the Username and password you chose and allow Azure to create a new Virtual Network (VNet). After clicking on the "Review and create" button, it might take a while to complete deployment.
 <p>
 <p>
 <img width="80%" height="1210" alt="slide1" src="https://github.com/user-attachments/assets/4051abd1-be32-4a6c-88bc-d829619e6164" />
